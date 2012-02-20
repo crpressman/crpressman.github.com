@@ -81,7 +81,7 @@ header#site-header h1 a { display:block; width:200px; height:200px; background:u
 
 body {
 	width:960px;
-	margin:0;auto;
+	margin:0 auto;
 }
 
 article {
