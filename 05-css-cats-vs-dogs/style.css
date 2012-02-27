@@ -71,12 +71,9 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-<style>
 
-.pagewrapper{
-	width:960px;
-	margin:0 auto 0 auto;
-}
+
+
 
 body{
 	width:960px;
@@ -91,7 +88,7 @@ header img{
 
 img{
 	position:relative;
-	margin:10px;
+	margin-bottom:10px;
 	width: 400px;
 }
 
@@ -117,8 +114,14 @@ nav li{
 	float:left;
 	text-align:center;
 	width:150px;
+	list-style:disc;
+	
 }
 
+a{
+	text-decoration:none;
+	color:black;
+}
 
 
 h1{
