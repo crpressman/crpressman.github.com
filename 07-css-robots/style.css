@@ -85,7 +85,7 @@ body{
 	background:url(images/logo.png) no-repeat top left;
 	text-indent:-9999px;
 	background-color:#F6F9ED;
-	width:2000px;
+	width:960px;
 	margin-left:0px;
 	
 	
@@ -94,8 +94,8 @@ body{
 nav#top-nav{
 	position:absolute;
 	right:0px; top:0px;
-	margin-right:150px;
-	margin-top:50px;
+	margin-right:600px;
+	margin-top:20px;
 	
 }
 
@@ -116,7 +116,7 @@ a3{
 nav ul{
 	float:left;
 	background-color:#8B5A2B;
-	width:1000px;
+	width:960px;
 	
 }
 
@@ -126,6 +126,12 @@ nav li{
 	padding:7px;
 	
 }
+
+#main-menu li a:hover{
+	text-decoration:none;
+	color:chartreuse;
+}
+
 
 a{
 	text-decoration:none;
@@ -143,30 +149,44 @@ article#page{
 	
 }
 
-h1{
-	font-family:"Helvetica";
-	font-style:bold;
-	color:#8B5A2B;
-	font-size:25px;
+article#img{
+	float:left;
+	width:500px;
+	margin-top:50px;
+	
 	
 }
+
 
 h2{
 	font-family:"Helvetica";
 	color:#8B5A2B;
 	font-size:20px;
+	text-transform:uppercase;
+	font-weight:bold;
 }
 
 p{
 	line-height:1.5em;
-	font-size:12px;
+	font-size:10px;
 	color:#808080;
+	font-family:"Helvetica";
+	
 }
 
 aside#sidebar{ 
 	float:right;
 	width:200px;
 	margin-top:60px;
+	margin-right:90px;
+	
+}
+
+aside#sidebar img{
+	padding:5px;
+	padding-left:0px;
+	
+	
 	
 }
 
@@ -174,6 +194,9 @@ h3{
 	font-family:"Helvetica";
 	color:#8B5A2B;
 	font-size:19px;
+	text-transform:uppercase;
+	font-weight:bold;
+	
 }
 
 a1{
@@ -189,8 +212,10 @@ a1{
 	clear:both;
 	position:relative;
 	background-color:#8B5A2B;
-	padding:100px;
-	width:900px;
+	padding:90px;
+	width:960px;
+	margin-bottom:0px;
+
 	
 	
 	
@@ -198,6 +223,7 @@ a1{
 
 section#footer-contact {
 	float:left;
+	
 	
 	
 	
