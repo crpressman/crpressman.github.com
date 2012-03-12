@@ -74,9 +74,17 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-body{
-	width:960px;
+
+
+#site-wrapper{
+	background-color:#F6F9ED;
+
+}
+
+header{
 	margin:0 auto;
+	width:960px;
+	background-color:#F6F9ED;
 }
 
 #site-header h1 a {
@@ -107,6 +115,16 @@ a3{
 	text-transform:uppercase;
 	font-size:10px;
 	
+}
+#menu-wrapper{
+	background-color:#8B5A2B;
+
+}
+
+nav#main-menu{
+	margin:0 auto;
+	width:960px;
+    height:30px;
 }
 
 # main-menu{
@@ -146,6 +164,7 @@ article#page{
 	float:left;
 	width:500px;
 	margin-top:50px;
+	padding:30px;
 	
 }
 
@@ -208,25 +227,26 @@ a1{
 	
 }
 
+
+#footer-wrapper {
+	background-color:#8B5A2B;
+    height:200px;
+    clear:both;
+}
+
+
 #site-footer {
-	clear:both;
-	position:relative;
+	
+	margin:0 auto;
+	width:960px;
 	background-color:#8B5A2B;
 	padding:90px;
-	width:960px;
-	margin-bottom:0px;
 
-	
-	
-	
 }
+
 
 section#footer-contact {
 	float:left;
-	
-	
-	
-	
 }
 
 h4{
