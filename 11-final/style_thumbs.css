@@ -140,8 +140,8 @@ border-bottom: 1px solid grey;
 
 #footer-wrapper{
 border-bottom: 1px solid grey;
+	clear:both;
 }
-
 
 #footer-wrapper p{
 margin-left:15px;
