@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Chloe Pressman Portfolio</title>
+		<link rel="stylesheet" type='text/css' href="style_content.css"/>
+	</head>
+	<body>
+		<div id='site-wrapper'>
+		<header id='site-header'>
+			<h1> <a href='index_thumbs.html'><img src="images/chloe_name.png" alt='chloe logo'/></a></h1>
+			<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+		<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+		<div id='menu-wrapper'>
+		<nav id='main-menu'>
+			<ul> 
+				<li><a href="index_progress.html">Home</a></li>
+				<li><a href="index_thumbs.html">Work</a></li>
+				<li><a href="index_store.html">Resume</a></li>
+				<li><a href="index_contactus.html">Contact</a></li>
+			</ul>
+		</nav>
+		</div>
+		</header>
+		</div>
+		<div id='content-wrapper'>
+  		<div id='content'>
+		<section id='main-content'>
+			<div class="slider-wrapper theme-default">
+    		<div id="slider" class="nivoSlider">
+    		<img src="images/DM_web1.jpg" alt="DM1"/>
+    		<img src="images/DM_web2.jpg" alt="DM2"/>
+    		<img src="images/DM_web3.jpg" alt="DM3"/>
+    		<img src="images/DM_web4.jpg" alt="DM4"/>
+    		</div>
+			</div>
+			<script type="text/javascript">
+				$(window).load(function() {
+    				$('#slider').nivoSlider({
+    				animSpeed: 300,
+    				pauseOnHover: true,
+    				effect:'fade',
+    				controlNav: false, 
+    				});
+				});
+			</script>
+			</section>
+		</div>
+		</div>
+		<section id='project_info'>
+			<h1>Delucas Market</h1>
+			<p>This was a project I had in a package design class. The objective was to pick an existing brand that we thought could use an improvement. After exploring different brands I ended up choosing Deluca’s Market because the logo they have didn’t represent them well. They take pride in being a high end store, that’s been in the same location for 100 years and they provide a modern way to enjoy old fashion recipes. For the logo I tried out many different typefaces, hand drawn type, script.
+In the end I went with a bull they had in the original logo which I refined and a more appropriate typeface. </p>
+		</section>
+		
+		<div id='footer-wrapper'>
+  			<footer id='site-footer'>
+  				<p>2012 CHLOE PRESSMAN</p>
+  				
+			</footer>
+		</div>
+	</body>
+</html>

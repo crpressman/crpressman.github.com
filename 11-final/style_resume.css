@@ -1,0 +1,81 @@
+body{
+width:960px;
+font-family:Helvetica;
+font-size: 14px;
+line-height:1.4em;
+color:black;
+font-weight:lighter;
+margin:0 auto;
+}
+
+#main-menu ul li a{
+font-family:georgia;
+color:#FF4F4F;
+font-style:italic;
+text-decoration:none;
+}
+
+#main-menu ul li a:hover{
+font-family:georgia;
+font-style:italic;
+text-decoration:none;
+color:#333333;
+}
+
+
+nav#main-menu ul li{
+display:inline;
+padding: 25px 10px 17px 10px;
+}
+
+#main-menu{
+position:absolute;
+right:0px;
+top:90px;
+}
+
+#site-wrapper{
+border-bottom: 1px solid grey;
+}
+
+#footer-wrapper{
+border-top: 1px solid grey;
+}
+
+
+#footer-wrapper p{
+margin-left:15px;
+font-size:10px;
+}
+
+header#site-header{
+padding-top:45px;
+position:relative;
+margin:0 auto;
+width:960px;
+}
+
+#site-header h1 a {
+  display:block;
+  width:450px; 
+  height:80px;  
+  background:url("images/chloe_name.png") no-repeat top left; 
+  text-indent:-9999px;
+}
+
+
+#main-content img{
+width:300px;
+margin:0 auto;
+position: relative;
+left:300px;
+padding-top:15px;
+}
+
+#minor-content img{
+width:70px;
+margin:0 auto;
+position: relative;
+left:412px;
+padding-bottom:15px;
+}
